@@ -1,6 +1,6 @@
 ---
   -name: Find repository by name
-   redhat.satellite.repository_info
+   redhat.satellite.repository_info:
      username "admin"
      password "redhat"
      server_url "https://sat-lq2mq.lq2mq.dynamic.opentlc.com/"
