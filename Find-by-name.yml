@@ -3,8 +3,8 @@
 tasks:
   -name: Find repository by name
    redhat.satellite.repository_info
-     username: "admin"
-     password: "redhat"
+     username "admin"
+     password "redhat"
      server_url: "https://sat-lq2mq.lq2mq.dynamic.opentlc.com/"
      name: "Red Hat Ansible Engine 2 for RHEL 8 x86_64 RPMs x86_64"
      product: "ansible-2-for-rhel-8-x86_64-rpms"
