@@ -1,3 +1,4 @@
+---
 - name: "Find repository by name"
   redhat.satellite.repository_info:
     username: "admin"
