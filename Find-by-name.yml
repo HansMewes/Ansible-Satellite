@@ -1,5 +1,5 @@
 ---
--name: Findbyname
+-name:
 tasks:
   -name: Find repository by name
    redhat.satellite.repository_info
