@@ -1,6 +1,5 @@
 ---
-- name: 
-  hosts: all
+- name:
 
   vars:
     source_ip: "{{ hostvars['attacker']['private_ip2'] }}"
