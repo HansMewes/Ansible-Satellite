@@ -1,7 +1,7 @@
 ---
 - name: Findbyname
 tasks:
-  - name: "Find repository by name"
+  - name: Find repository by name
     redhat.satellite.repository_info:
       username: "admin"
       password: "redhat"
