@@ -5,10 +5,10 @@
   tasks:
 
     - name: "Find repository by name"
-      redhat.satellite.repository_info:
-        username: "admin"
-        password: "changeme"
-        server_url: "https://satellite.example.com"
-        name: "My repository"
-        product: "My Product"
-        organization: "Default Organization"
+       repository_info:
+       username: "admin"
+       password: "changeme"
+       server_url: "https://satellite.example.com"
+       name: "My repository"
+       product: "My Product"
+       organization: "Default Organization"
